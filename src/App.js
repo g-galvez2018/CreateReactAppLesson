@@ -78,9 +78,9 @@ class App extends Component {
           firstName={this.state.userB.firstName}
           lastName={this.state.userB.lastName}
           image={this.state.userB.avatarUrl}
-      />*/}
+      
           <Header></Header>
-          <ul>{listItems}</ul>
+          <ul>{listItems}</ul>/>*/}
           <div><MoviesList /></div>
           <hr />
           <DynamicMoviesList />
