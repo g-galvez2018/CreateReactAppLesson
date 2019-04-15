@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import User from './components/User';
+import TextareaAndSelectTagDemo from './components/dynamicListsDemo/TextareaAndSelectTagDemo';
 import {listItems, MoviesList} from './components/ListDemo'
 import DynamicMoviesList from './components/dynamicListsDemo/DynamicMoviesList';
 
@@ -84,6 +85,7 @@ class App extends Component {
           <div><MoviesList /></div>
           <hr />
           <DynamicMoviesList />
+          <TextareaAndSelectTagDemo />
       </div>
     );
   }
